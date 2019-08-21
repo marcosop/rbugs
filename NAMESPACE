@@ -1,0 +1,17 @@
+export(rbugs,
+#       print.rbugs,
+       genInitsFile, genDataFile, genBugsScript,
+       format4Bugs,
+       getBugsOutput,
+       rbugs2coda,
+       genFiles4Condor,
+       genFiles4CondorDag,
+       genDag)
+
+S3method(print, rbugs)
+
+importFrom("coda", "mcmc", "as.mcmc", "as.mcmc.list")
+importFrom("stats", "runif")
+importFrom("utils", "read.table", "file_test")
+importFrom("spdep","poly2nb")
+

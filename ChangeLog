@@ -1,0 +1,174 @@
+2018-02-20 (0.6-1) Marcos Prates <marcosop@est.ufmg.br> and Jun Yan <jyan@stat.uconn.edu>
+
+  * Fixing typos for new CRAN format
+
+2014-12-12 (0.6-0) Marcos Prates <marcosop@est.ufmg.br> and Jun Yan <jyan@stat.uconn.edu>
+
+  * Include high permformance computing functions (Condor)
+
+2013-04-08 (0.5-9) Marcos Prates <marcosop@est.ufmg.br> and Jun Yan <jyan@stat.uconn.edu>
+
+  * fixed .path.package (deprecated) system.file
+
+2013-03-19 (0.5-8) Marcos Prates <marcosop@est.ufmg.br> and Jun Yan <jyan@stat.uconn.edu>
+
+  * fixed Rio de Janeiro example
+
+2013-02-27 (0.5-7) Marcos Prates <marcosop@est.ufmg.br> and Jun Yan <jyan@stat.uconn.edu>
+
+  * add Rio de Janeiro example
+
+2013-02-27 (0.5-6) Marcos Prates <marcosop@est.ufmg.br> and Jun Yan <jyan@stat.uconn.edu>
+
+  * fixed the log generation for 
+    OpenBUGS in Windows plataform
+  * Add some user checks when running
+    runBugs()
+
+2012-02-03 (0.5-5) Marcos Prates <marcosop@est.ufmg.br> and Jun Yan <jyan@stat.uconn.edu>
+
+  * fixed examples files
+  * changed corresponding email
+  * removed absolutepah command to
+    run in the cluster
+
+2012-02-02 (0.5-4) Marcos Prates  <marcosop@ime.unicamp.br> and Jun Yan <jyan@stat.uconn.edu>
+
+  * changed on runBUGS() to try to run OpenBUGS 
+    at most 2 times
+
+2011-11-08 (0.5-3) Marcos Prates  <marcosop@ime.unicamp.br> and Jun Yan <jyan@stat.uconn.edu>
+
+  * Removed WINE support
+
+  * Removed WINE support
+    Fix the automatic path for OpenBUGS 
+    (in Linux)
+
+2011-06-27 (0.5-2) Marcos Prates  <marcosop@ime.unicamp.br> and Jun Yan <jyan@stat.uconn.edu>
+
+  * Included the burnin and thining in the
+    rbugs2coda function
+
+2011-02-19 (0.5-1) Marcos Prates  <marcos.prates@uconn.edu> and Jun Yan <jyan@stat.uconn.edu>
+
+  * Fixed the problem on linux when there were a 
+    need to recall the rbugs function to run OpenBUGS.
+
+2011-02-18 (0.5-0) Marcos Prates  <marcos.prates@uconn.edu> and Jun Yan <jyan@stat.uconn.edu>
+
+  * Fixed the problem for OpenBUGS on linux,
+   when defining the bugs path.
+
+2011-01-01 (0.4-9) Marcos Prates  <marcos.prates@uconn.edu> and Jun Yan <jyan@stat.uconn.edu>
+
+  * Fixed the problem of out of range random seed 
+    when generating initial seed for OpenBUGS.
+  (thanks to Wen Huang)
+
+2010-10-19 (0.4-8) Marcos Prates  <marcos.prates@uconn.edu> and Jun Yan <jyan@stat.uconn.edu>
+
+  * Fixed the problem when generating intial files.
+  (thanks to Dr Stefano Conti)
+
+2010-10-15 (0.4-7) Marcos Prates  <marcos.prates@uconn.edu> and Jun Yan <jyan@stat.uconn.edu>
+
+  * Fixed the log.txt generating problem in Linux
+  the log.txt file is necessary to get the DIC output.
+  (thanks to Dr Stefano Conti)
+  
+2010-09-28 (0.4-6) Marcos Prates  <marcos.prates@uconn.edu> and Jun Yan <jyan@stat.uconn.edu>
+
+  * Fixed the loading coda file in getBugsOutput 
+  function when data is saved from OpenBugs using
+  the interface.
+
+2010-09-28 (0.4-5) Marcos Prates  <marcos.prates@uconn.edu> and Jun Yan <jyan@stat.uconn.edu>
+
+  * Input the generation of the "rbugs" class
+  to the getBugsOutput function.
+
+
+2010-07-07 (0.4-4) Marcos Prates  <marcos.prates@uconn.edu> and Jun Yan <jyan@stat.uconn.edu>
+
+  * Fix the debug and dic functionality for
+  OpenBUGS 
+  * Corrected the wine script generation
+
+2010-06-17 (0.4-3) Marcos Prates  <marcos.prates@uconn.edu> and Jun Yan <jyan@stat.uconn.edu>
+
+  * Included the rbugs2coda function to convert
+  the rbugs output to a coda format.
+
+2010-06-09 (0.4-2) Marcos Prates  <marcos.prates@uconn.edu> and Jun Yan <jyan@stat.uconn.edu>
+
+  * Set seed to be random if not specified by the
+  user.
+  * Fixed the cleanBugsWorkingDir function to delete
+   the workingdir files when selected TRUE.
+  * Changed the output design.
+  * Changed the linbugs variables to OpenBugs.
+
+
+2010-05-27 (0.4-1) Marcos Prates  <marcos.prates@uconn.edu> and Jun Yan <jyan@stat.uconn.edu>
+
+	* Fixed the support for OpenBUGS on windows
+	with the recent release of OpenBUGS310.
+	* Added the example for running OpenBugs on 
+	windows with the school and pump data.
+ 	* Fixed the example for running WinBugs on 
+	windows with the school and pump data.
+	* Fixed the example for running OpenBugs on 
+	linux with the school data.
+	* The WINE examples were not tested and the
+	WINE support will not be carried on in a soon
+	future.
+
+
+2010-05-01 (0.4-0) Jun Yan  <jyan@.stat.uconn.edu>
+
+	* tuned support for OpenBUGS on linux
+	with the recent release of OpenBUGS307
+	(thanks to Christopher L DuBois <duboisc@ics.uci.edu>).
+	* deprecated support for WinBUGS and useWine.
+
+	
+2008-11-19 (0.3-6) Jun Yan  <jyan@.stat.uconn.edu>
+
+	* changed tools::file_test to tools:::file_test in utils.R,
+	thanks to Andrew Walsh <awalsh@cs.cmu.edu>.
+
+
+2006-10-09 (0.3-5) Jun Yan  <jyan@.stat.uiowa.edu>
+
+	* changed check '(is.null(bugs))' to '(length(bugs) == 0)' in rbugs,
+	as pointed out by Simon Bonner <sbonner@stat.sfu.ca>.
+
+2006-03-28 (0.3-4) Jun Yan  <jyan@stat.uiowa.edu>
+
+	* added random number seed as an option to rbugs and 
+	genBugsScript.
+
+2006-03-24 (0.3-3)  Jun Yan  <jyan@.stat.uiowa.edu>
+
+	* added support for linbugs (OpenBUGS on Linux). 
+	Support for WinBUGS via Wine is no longer necessary.
+	* added an option `genFilesOnly' for function `rbugs' 
+	to generate script files, inits files, data file, and 
+	model file in a given directory.
+	* dic is now an option. 
+	It was always computed in previous releases, but sometimes 
+	computing dic may be very time-consuming, for example, 
+	in spatial modeling. It's desirable to not to compute 
+	dic at least for exploratory analysis.
+	
+2004-05-18 (0.3-1) Jun Yan  <jyan@stat.uiowa.edu>
+
+	* added error checking for system call to BUGS
+	* added error checking for existence of coda files
+	* added automated generation of drive mapping table for wine
+
+	
+2004-05-10 (0.2-2) Jun Yan  <jyan@stat.uiowa.edu>
+
+	* first public release
